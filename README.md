@@ -55,7 +55,7 @@
 
 #### c. サンプルを使ってみる
 **c1.** システムのTOPを開く
--　URL:　http://localhost/pbl2025/
+- URL:　http://localhost/pbl2025/
 **c2.** 会員としてログイン
 - ID: `u001～u010`
 - PW: `1234`
