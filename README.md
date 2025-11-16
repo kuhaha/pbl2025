@@ -3,25 +3,27 @@
 #### **a.** サンプルコードを展開し、開発環境に配置する
 **a1.** サンプルコード（zipファイル）を展開し、ドキュメントルート（下記）に置く
 
+- 
 ```shell
-├ pbl2025/
-  ├─ css/   CSSファイルが入っている
-  ├─ docs/  データベースの構成等の説明が入っている
-    ├─ SAMPLE_DB_DATA.sql
-    └─ SAMPLE_DB_SCHEMA.sql
-  ├─ img/   画像ファイルが入っている
-  ├─ src/   主要機能や画面の実装のPHPソースファイルが入っている
-       ├─ Model.php　データベース操作に関するクラス
-       ├─ pg_footer.php
-       ├─ pg_header.php
-       ├─ rst_detail.php
-       ├─ rst_list.php
-       ├─ usr_detail.php
-       ├─ usr_list.php
-       ├─ usr_login.php
-       ・・・
-  ├─ index.php　各機能への入り口。
-  └─ README.md　このドキュメント
+C:/php/lampp-docker8/htdocs/
+ ├ pbl2025/
+   ├─ css/   CSSファイルが入っている
+   ├─ docs/  データベースの構成等の説明が入っている
+     ├─ SAMPLE_DB_DATA.sql
+     └─ SAMPLE_DB_SCHEMA.sql
+   ├─ img/   画像ファイルが入っている
+   ├─ src/   主要機能や画面の実装のPHPソースファイルが入っている
+      ├─ Model.php　データベース操作に関するクラス
+      ├─ pg_footer.php
+      ├─ pg_header.php
+      ├─ rst_detail.php
+      ├─ rst_list.php
+      ├─ usr_detail.php
+      ├─ usr_list.php
+      ├─ usr_login.php
+      ・・・
+   ├─ index.php　各機能への入り口。
+   └─ README.md　このドキュメント
 ```
 
 **a2.** Visual Studio Codeを起動する 
