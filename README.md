@@ -25,8 +25,9 @@
 ```
 
 **a2.** Visual Studio Codeを起動する 
--　「  `C:/php/lampp-docker8/htdocs/pbl2025`」フォルダを開く    
--　上記のフォルダにサンプルコードが含まれていることを確認
+
+- 「  `C:/php/lampp-docker8/htdocs/pbl2025`」フォルダを開く    
+- 上記のフォルダにサンプルコードが含まれていることを確認
 
   以上で、サンプルコード導入完了
 
