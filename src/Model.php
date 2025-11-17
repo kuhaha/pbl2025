@@ -8,8 +8,8 @@ class Model
     ];
 
     protected static $codes = [
-        'user_type' => ['1'=>'社員', '2'=>'ゲスト','9'=>'管理者'],
-        
+        'user_type' => [1=>'社員', 2=>'ゲスト',9=>'管理者'],
+        'app_status' => [1=>'申請中',2=>'承認済み'],
     ];
 
     function __construct($conf = null){
