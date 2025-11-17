@@ -21,4 +21,4 @@ foreach ($restaurants as $i=>$rst){
 }
 if (!$new_line) echo '</tr>', PHP_EOL;
 echo '</table>';
-?>
+
