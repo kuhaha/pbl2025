@@ -85,7 +85,7 @@ class Model
     
     /*update(): 特定のテーブルに対してデータを更新する。
      * 引数: $data, 配列, 例：['name'=>'foo', 'age'=>18, 'tel'=>'12345']
-     * 　　　$where, 条件を表す文字列, 例：'sid=k22rs999'
+     * 　　　$where, 条件を表す文字列, 例："sid='k22rs999'"
      * 戻り値：変更した行数
      */
     public function update($data, $where){
@@ -98,7 +98,7 @@ class Model
     }
     
     /* delete(): 特定のテーブルに対して条件を満たすデータを削除する。
-     * 引数: $where, 条件を表す文字列, 例：'sid=k22rs999'
+     * 引数: $where, 条件を表す文字列, 例："sid='k22rs999'"
      * 戻り値：変更した行数
      */
     public function delete($where){
