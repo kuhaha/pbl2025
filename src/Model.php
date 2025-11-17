@@ -92,6 +92,7 @@ class Model
         $keys = array_keys($data);
         $values = array_map(fn($v)=>is_string($v) ? "'{$v}'" : $v, array_values($data));
         $values = array_map(fn($k, $v)=>"{$k}={$v}", array_combine($keys, $values));
+        $values = implode(",", $values);
         $sql = "UPDATE {$this->table} SET {$values} WHERE {$where}";
         $this->execute($sql);
         return $this->db->affected_rows;
